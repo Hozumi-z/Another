@@ -24,6 +24,6 @@ while True:
         extract_phoneme.extract()
         model.predict()
         print('[INFO] Displaying animation')
-        os.system('cd display & mingw32-make & main.exe')
+        os.system('cd display & mingw32-make & start main.exe')
         #os.system('start display/main.exe')
         print('[INFO] done.')
